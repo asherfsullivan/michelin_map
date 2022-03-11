@@ -1,5 +1,5 @@
 # michelin_map
-## Purpose/Reason of topic choice
+## Purpose
 We all like high quality food (and the majority live in SoCal).
 
 ## Questions to be answered
