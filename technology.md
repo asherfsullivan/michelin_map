@@ -3,10 +3,10 @@
 The data was sourced from Kaggle (multiple csv files combined into one) and will scrape data from yelp (API). This data will be cleaned with Jupyter Notebook and Python.
 
 ## Database Storage
-Mongo is the database we intend to use, and we will integrate Flask to display the data
+PosgreSQL is the database we intend to use, and we will perform the ETL process to extract the dataset.
 
 ## Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
+-- is the ML library we'll be using to create a classifier (Cluster Centroid Undersampling):. Our training and testing setup is --
 
 ## Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___.
+We will integrate Tableau for a fully functioning and interactive dashboard. 
