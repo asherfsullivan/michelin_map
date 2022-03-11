@@ -9,6 +9,7 @@ We all like high quality food (and the majority live in SoCal).
 ## Source Data
 - Yelp 
 - Other source listing restuarants in L.A. (Need to find to scrape)
+- https://github.com/asherfsullivan/michelin_map/blob/heather-branch/Resources/michelin_data.csv
 
 ## Communication Protocols? (from the rubric)
 - Slack
