@@ -20,3 +20,5 @@ We all like high quality food, and are curious about possible relationships betw
 
 ### Preliminary Data Organization
 ![Postgres](Resources/Postgresql_table.png)
+
+### [Technologies Used](technology.md)
