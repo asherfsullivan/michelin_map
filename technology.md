@@ -3,7 +3,7 @@
 The data was sourced from Kaggle (multiple csv files combined into one) and will scrape data from yelp (API). This data will be cleaned with Jupyter Notebook and Python.
 
 ## Database Storage
-Mongo is the database we intend to use, and we will integrate Flask to display the data
+-- is the database we intend to use, and we will integrate Flask to display the data
 
 ## Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
