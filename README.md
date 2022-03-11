@@ -24,3 +24,5 @@ We all like high quality food (and the majority live in SoCal).
 ### Data
 1. Identified data sets containing Michelin star restaurant data and Yelp reviews from Kaggle.
 2. Cleaned and merged Michelin star restaurant data sets using Jupyter Notebook.
+
+### Machine Learning
