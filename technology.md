@@ -6,7 +6,7 @@ The data was sourced from Kaggle (multiple csv files combined into one) and will
 PosgreSQL is the database we intend to use, and we will perform the ETL process to extract the dataset.
 
 ## Machine Learning
--- is the ML library we'll be using to create a classifier (Cluster Centroid Undersampling):. Our training and testing setup is --
+TensorFlow Library is the ML library we'll be using for Deep Learning.
 
 ## Dashboard
 We will integrate Tableau for a fully functioning and interactive dashboard. 
