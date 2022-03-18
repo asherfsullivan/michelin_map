@@ -3,7 +3,7 @@
 ## Introduction
 
 ### Purpose
-We all like high quality food, and are curious about possible relationships between Yelp ratings and Michelin star designations.
+As a group we all like high quality food, and are curious about possible relationships between Yelp ratings and Michelin star designations.
 
 ### Questions
 - Can Yelp data and reviews help predict whether a restaurant has a Michelin star? Can we predict the # of Michelin stars a restaurant has by looking at their rating and/or review count from Yelp? 
