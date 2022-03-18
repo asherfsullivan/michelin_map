@@ -12,17 +12,12 @@ We all like high quality food, and are curious about possible relationships betw
 ## Data
 
 ### Source Data
-We evaluated several existing datasets for Yelp restaurant review data and Michelin star restaurant data. Scraped data from Yelp to supplement found datasets.
-
-Yelp data:
-- [Kaggle dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_business.json)
-- Scraped Yelp reviews using BeautifulSoup
-
-Michelin data:
-- [Kaggle dataset](https://www.kaggle.com/datasets/jackywang529/michelin-restaurants) with Michelin restaurants from 2019
+We evaluated several existing datasets for Yelp restaurant review data and Michelin star restaurant data. We used the following datasets, and scraped data from Yelp to supplement.
+- Yelp data: [Kaggle dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_business.json)
+- Michelin data: [Kaggle dataset](https://www.kaggle.com/datasets/jackywang529/michelin-restaurants) with Michelin restaurants from 2019
 
 ### Data Cleaning
-Initially created a small dataset of 83 restaurants in California with Michelin stars merged with their Yelp data, and then expanded data set to additional regions.
+We initially created a small dataset of 83 Michelin star restaurants in California, merged with their Yelp data. We then expanded the dataset to include restaurants in additional regions.
 
 ## Building the Models
 
