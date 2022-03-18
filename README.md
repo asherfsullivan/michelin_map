@@ -1,28 +1,33 @@
 # Michelin Map
 
-## Overview
+## Introduction
 
 ### Purpose
 We all like high quality food, and are curious about possible relationships between Yelp ratings and Michelin star designations.
 
 ### Questions
-- Can Yelp reviews help predict whether a restaurant has a Michelin star? 
-- Does a higher Yelp Review predict a higher number of Michelin stars awarded to a restaurant? 
+- Can Yelp data and reviews help predict whether a restaurant has a Michelin star? Can we predict the # of Michelin stars a restaurant has by looking at their rating and/or review count from Yelp? 
+- Using machine learning, can we predict which restaurants have gained a Michelin star since 2019? Can we predict into the future? 
+
+## Data
 
 ### Source Data
-- Yelp ratings: https://www.kaggle.com/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_business.json
-- Michelin restaurants: https://github.com/asherfsullivan/michelin_map/blob/heather-branch/Resources/michelin_data.csv
+We evaluated several existing datasets for Yelp restaurant review data and Michelin star restaurant data. Scraped data from Yelp to supplement found datasets.
 
-### Communication Protocols
-- Slack
-- Email 
-- Phone
+Yelp data:
+- [Kaggle dataset](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_business.json)
+- Scraped Yelp reviews using BeautifulSoup
 
-### Preliminary Data Organization
-![Postgres](Resources/Postgresql_table.png)
+Michelin data:
+- [Kaggle dataset](https://www.kaggle.com/datasets/jackywang529/michelin-restaurants) with Michelin restaurants from 2019
 
-### [Technologies Used](technology.md)
+### Data Cleaning
+Initially created a small dataset of 83 restaurants in California with Michelin stars merged with their Yelp data, and then expanded data set to additional regions.
+
+## Building the Models
 
 ### Machine Learning Models
+
+### [Technologies Used](technology.md)
 
 ## Summary
