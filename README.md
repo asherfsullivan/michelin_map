@@ -26,3 +26,4 @@ We initially created a small cleaned dataset of 83 Michelin star restaurants in 
 ### [Technologies Used](technology.md)
 
 ## Summary
+[Google Slides](https://docs.google.com/presentation/d/1rlgLjCL67ObVTJGFYM0-nu0BmKD3xxvakFf2mfFInd4/edit?usp=sharing)
