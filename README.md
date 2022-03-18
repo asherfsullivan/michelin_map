@@ -22,3 +22,7 @@ We all like high quality food, and are curious about possible relationships betw
 ![Postgres](Resources/Postgresql_table.png)
 
 ### [Technologies Used](technology.md)
+
+### Machine Learning Models
+
+## Summary
