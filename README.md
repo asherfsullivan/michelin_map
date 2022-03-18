@@ -17,7 +17,7 @@ We evaluated several existing datasets for Yelp restaurant review data and Miche
 - Michelin data: [Kaggle dataset](https://www.kaggle.com/datasets/jackywang529/michelin-restaurants) with Michelin restaurants from 2019
 
 ### Data Cleaning
-We initially created a small dataset of 83 Michelin star restaurants in California, merged with their Yelp data. We then expanded the dataset to include restaurants in additional regions.
+We initially created a small cleaned dataset of 83 Michelin star restaurants in California, merged with their Yelp data. We then expanded the dataset to include restaurants in additional regions.
 
 ## Building the Models
 
