@@ -20,6 +20,7 @@ We evaluated several existing datasets for Yelp restaurant review data and Miche
 We initially created a small cleaned dataset of 83 Michelin star restaurants in California, merged with their Yelp data. We then expanded the dataset to include restaurants in additional regions.
 
 ## Building the Models
+We designed
 
 ### Machine Learning Models
 
