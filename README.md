@@ -24,7 +24,20 @@ We designed
 
 ### Machine Learning Models
 
-### [Technologies Used](technology.md)
+### Technologies Used
+
+# Technologies Used
+## Data Cleaning and Analysis
+The data was sourced from Kaggle (multiple csv files combined into one) and will scrape data from yelp (API). This data will be cleaned with Jupyter Notebook and Python.
+
+## Database Storage
+PosgreSQL is the database we intend to use, and we will perform the ETL process to extract the dataset.
+
+## Machine Learning
+TensorFlow Library is the ML library we'll be using for Deep Learning.
+
+## Dashboard
+We will integrate Tableau for a fully functioning and interactive dashboard. 
 
 ## Summary
 [Google Slides](https://docs.google.com/presentation/d/1rlgLjCL67ObVTJGFYM0-nu0BmKD3xxvakFf2mfFInd4/edit?usp=sharing)
