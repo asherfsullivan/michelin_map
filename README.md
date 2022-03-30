@@ -16,15 +16,12 @@ The Michelin reviewers, also known as Inspectors, keep their identities a secret
 ## Data
 
 ### Source Data
-To build our models, we wanted to be able to pull as much data as possible to optimize machine learning. After reviewing various food data sites, we chose a dataset from Kaggle for Michelin star restaurant data from 2019. We also gathered additional restaurant data using a Yelp API, and scraped Michelin restaurant data from Yelp, using BeautifulSoup and Splinter.
+To build our models, we wanted to be able to pull as much data as possible to optimize machine learning. After reviewing various food data sites, we chose a dataset from [Kaggle for Michelin star restaurant data from 2019](https://www.kaggle.com/datasets/jackywang529/michelin-restaurants). We also gathered additional restaurant data using a Yelp API, and scraped Michelin restaurant data from Yelp, using BeautifulSoup and Splinter.
 
 Reasoning:
 - Most robust data tables
 - Longest history of data
 - Low level of complexity on the Yelp website, allowing us to scrape without a web driver (Jupyter Notebook)
-
-Kaggle Datasets:
-- [Michelin data with Michelin restaurants from 2019](https://www.kaggle.com/datasets/jackywang529/michelin-restaurants) 
 
 ### Data Cleaning
 The data was cleaned and merged using Jupyter Notebook. We created two datasets:
