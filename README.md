@@ -28,28 +28,21 @@ Kaggle Datasets:
 
 ### Data Cleaning
 The data was cleaned and merged using Jupyter Notebook. We created two datasets:
-1. Michelin star restaurant data with their corresponding Yelp data
-2. Dataset of ~7,000 Yelp restaurant reviews, including the Michelin star restaurant data from the first dataset
+1. Dataset of 179 Michelin star restaurant data with their corresponding Yelp data
+2. Dataset of ~7,000 Yelp restaurant reviews, including the Michelin star restaurants from the first dataset
+
+### Data Storage
+The datasets were stored in CSV files and SQLite databases.
 
 ## Building the Models
 We designed
 
 ### Machine Learning Models
 
-### Technologies Used
+## What Worked
 
-# Technologies Used
-## Data Cleaning and Analysis
-The data was sourced from Kaggle (multiple csv files combined into one) and will scrape data from yelp (API). This data will be cleaned with Jupyter Notebook and Python.
 
-## Database Storage
-PosgreSQL is the database we intend to use, and we will perform the ETL process to extract the dataset.
-
-## Machine Learning
-TensorFlow Library is the ML library we'll be using for Deep Learning.
-
-## Dashboard
-We will integrate Tableau for a fully functioning and interactive dashboard. 
+## What Didn't Work
 
 ## Summary
 [Google Slides](https://docs.google.com/presentation/d/1rlgLjCL67ObVTJGFYM0-nu0BmKD3xxvakFf2mfFInd4/edit?usp=sharing)
