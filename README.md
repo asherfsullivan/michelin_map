@@ -11,7 +11,7 @@ The Michelin reviewers, also known as Inspectors, keep their identities a secret
 ### Our Questions
 
 1. Could Yelp data and reviews help predict how many stars a known Michelin restaurant has?
-2. Could Yelp data and review help predict if a given restaurant has any number of Michelin stars or not?
+2. Could Yelp data and reviews help predict if a given restaurant has any number of Michelin stars or not?
 
 ## Data
 
