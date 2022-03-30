@@ -32,11 +32,16 @@ The data was cleaned and merged using Jupyter Notebook. We created two datasets:
 The datasets were stored in CSV files and SQLite databases.
 
 ## Building the Models
-We designed
+We tested several different types of models.
+
+To answer our first question, Could we predict how many stars a Michelin Starred restaurant has? We started with a Linear Regression model with little success and moved onto a Deep Learning model. An accuracy score of 84% was obtained. 
+
+To answer our second question, Could Yelp data and reviews help predict whether a restaurant has a Michelin star? We at first used Random Forest, Logistic Regression, and a Deep Learning Model. All three models came to the same result, as well as predicted a 97% accuracy of when a restaurant did not a Michelin star, and poorly predicting if it did have one. We then used Resampling Models (Oversampling, Undersampling, Combination, Balanced Random Forest, and Easy Ensemble AdaBoost).
 
 ### Machine Learning Models
 
 ## What Worked
+The Undersampling model accurately predicts 45 restaurants have Michelin Stars. 
 
 
 ## What Didn't Work
