@@ -10,8 +10,8 @@ The Michelin reviewers, also known as Inspectors, keep their identities a secret
 
 ### Our Questions
 
-- Can Yelp data and reviews help predict whether a restaurant has a Michelin star? Can we predict the number of Michelin stars a restaurant has by looking at their rating and/or review count from Yelp? 
-- Using machine learning, can we predict which restaurants have gained a Michelin star since 2019? Can we predict into the future? 
+1. Could Yelp data and reviews help predict how many stars a known Michelin restaurant has?
+2. Could Yelp data and review help predict if a given restaurant has any number of Michelin stars or not?
 
 ## Data
 
