@@ -25,7 +25,7 @@ Reasoning:
 
 ### Data Cleaning
 The data was cleaned and merged using Jupyter Notebook. We created two datasets:
-1. Dataset of 179 Michelin star restaurant data with their corresponding Yelp data
+1. [Dataset of 179 Michelin star restaurant data with their corresponding Yelp data](Resources/michelin_ML.csv)
 2. Dataset of ~7,000 Yelp restaurant reviews, including the Michelin star restaurants from the first dataset
 
 ### Data Storage
