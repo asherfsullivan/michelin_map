@@ -26,8 +26,10 @@ Reasoning:
 **Initial Overview of Michelin Dataset**
 
 <p align="center">
-  <img width="500" alt="Michelin Restaurants by # of Stars" src="https://user-images.githubusercontent.com/15335096/161186391-f3d2ac60-2d1c-4714-a49d-92fb08f84e46.png"><img width="500" alt="Michelin Restaurants by Region" src="https://user-images.githubusercontent.com/15335096/161186400-7fd1543a-06d1-45d0-9808-4f98aea3fb07.png">
-  <img width="800" alt="Michelin Restaurants by Star and Cuisine" src="https://user-images.githubusercontent.com/15335096/161186410-805a5df9-73da-4aac-a0dd-f71834777f66.png">
+  <img width="500" alt="Michelin Restaurants by Region" src="https://user-images.githubusercontent.com/15335096/161188446-31a10b62-b47c-4f4f-981f-c1e21a085615.png"><img width="500" alt="Michelin Restaurants by # of Stars" src="https://user-images.githubusercontent.com/15335096/161188651-d03797e6-6ece-4214-bdc0-149169fdd358.png">
+
+  <img width="1047" alt="Michelin Restaurants by Star and Cuisine" src="https://user-images.githubusercontent.com/15335096/161189294-96936d6d-ac9c-4e5b-adf5-90c47539dc9a.png">
+
 </p>
 
 ### Data Cleaning
