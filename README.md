@@ -23,6 +23,13 @@ Reasoning:
 - Longest history of data
 - Low level of complexity on the Yelp website, allowing us to scrape without a web driver (Jupyter Notebook)
 
+**Initial Overview of Michelin Dataset**
+
+<p align="center">
+<img width="800" alt="Michelin Restaurants by Star and Cuisine" src="https://user-images.githubusercontent.com/15335096/161186410-805a5df9-73da-4aac-a0dd-f71834777f66.png">
+<img width="400" alt="Michelin Restaurants by # of Stars" src="https://user-images.githubusercontent.com/15335096/161186391-f3d2ac60-2d1c-4714-a49d-92fb08f84e46.png"><img width="400" alt="Michelin Restaurants by Region" src="https://user-images.githubusercontent.com/15335096/161186400-7fd1543a-06d1-45d0-9808-4f98aea3fb07.png">
+</p>
+
 ### Data Cleaning
 The data was cleaned and merged using Jupyter Notebook. We created two datasets:
 1. [Dataset of 179 Michelin star restaurant data with their corresponding Yelp data](Resources/michelin_ML.csv)
