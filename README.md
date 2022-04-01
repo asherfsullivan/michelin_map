@@ -60,6 +60,26 @@ The Undersampling model accurately predicts 45 restaurants have Michelin Stars.
 
 ### What Didn't Work
 
+## Conclusion
+First Question: Can we accurately predict how many stars a Michelin starred restaurant has using data from Yelp?
+* The Logistic Regression and Support Vector Classification Models were unsuccessful predictors of our first question. Although we yielded an 84% accuracy with the Deep Learning model, our dataset was far too small and we did not find meaningful results. 
+
+Second Question: Could Yelp data and reviews help predict whether a restaurant has a Michelin star?
+* Using various models of both Supervised and Unsupervised Machine Learning Models to determine whether machine learning can predict if a restaurant has a Michelin Star, we found that Deep Learning and Undersampling were the least accurate models, while all Supervised Machine Learning models were very precise in determining Michelin Star restaurants.
+
+### Next Steps
+
+Improving the Model:
+
+* Include more restaurants with Michelin stars into the dataset, which would require expanding to additional countries (179 restaurants from the United States included in dataset, with only roughly 200 Michelin star restaurants in the US at a given time).
+* Include more data from Yelp: scraping Yelp reviews and using Natural Language Processing to extract and analyze keywords andsorting Yelp reviews into elite and regular members to see if reviewer status has an impact on predicting if a restaurant is Michelin starred
+
+Continued Testing of Accuracy:
+* Since the Michelin star restaurant data used in this analysis was from 2019, we could compare and improve the model against known 2020-2021 Michelin star restaurant data.
+
+Future Models
+* Make year 2020-2022 predictions and compare to real results.
+
 ## Summary
 [Google Slides](https://docs.google.com/presentation/d/1rlgLjCL67ObVTJGFYM0-nu0BmKD3xxvakFf2mfFInd4/edit?usp=sharing)
 
