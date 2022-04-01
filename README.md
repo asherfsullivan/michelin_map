@@ -26,7 +26,8 @@ Reasoning:
 **Initial Overview of Michelin Dataset**
 
 <p align="center">
-  <img width="500" alt="Michelin Restaurants by Region" src="https://user-images.githubusercontent.com/15335096/161188446-31a10b62-b47c-4f4f-981f-c1e21a085615.png"><img width="500" alt="Michelin Restaurants by # of Stars" src="https://user-images.githubusercontent.com/15335096/161188651-d03797e6-6ece-4214-bdc0-149169fdd358.png">
+  <img width="500" alt="Michelin Restaurants by Region" src="https://user-images.githubusercontent.com/15335096/161188446-31a10b62-b47c-4f4f-981f-c1e21a085615.png"><img width="500" alt="Michelin Restaurants by # of Stars" src="https://user-images.githubusercontent.com/15335096/161190047-c83d00db-b21f-4e91-a835-c157f083fa87.png">
+
 
   <img width="1047" alt="Michelin Restaurants by Star and Cuisine" src="https://user-images.githubusercontent.com/15335096/161189771-03cd3fa8-77b8-4e80-9bf8-545c2821e14a.png">
 
