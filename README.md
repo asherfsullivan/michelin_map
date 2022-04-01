@@ -48,8 +48,14 @@ To answer our first question, _Could we predict how many stars a Michelin Starre
 To answer our second question, _Could Yelp data and reviews help predict whether a restaurant has a Michelin star?_ We at first used Random Forest, Logistic Regression, and a Deep Learning Model. All three models came to the same result, and had an overall accuracy score of 97%, with very high accuracy in predicting if a restaurant did not have a Michelin star, and extremely low accuracy in predicting if it did have one. We then used Resampling Models (Oversampling, Undersampling, Combination, Balanced Random Forest, and Easy Ensemble AdaBoost).
 
 ### What Worked
-The Undersampling model accurately predicts 45 restaurants have Michelin Stars. 
+**Neural Network Model to Determine 1, 2, or 3 Michelin Stars**
 
+![NNM to Determine 1,2,3 Michelin Stars - loss accuracy](https://user-images.githubusercontent.com/15335096/161188060-9e4c8d75-b906-4811-9dda-f562181bf377.png)
+
+![NNM to Determine 1,2,3 Michelin Stars - graph](https://user-images.githubusercontent.com/15335096/161187983-cc0e7d4a-272e-40a1-991c-6f76b284b43a.png)
+
+
+The Undersampling model accurately predicts 45 restaurants have Michelin Stars.
 
 ### What Didn't Work
 
