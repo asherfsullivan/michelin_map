@@ -48,17 +48,35 @@ To answer our first question, _Could we predict how many stars a Michelin Starre
 
 To answer our second question, _Could Yelp data and reviews help predict whether a restaurant has a Michelin star?_ We at first used Random Forest, Logistic Regression, and a Deep Learning Model. All three models came to the same result, and had an overall accuracy score of 97%, with very high accuracy in predicting if a restaurant did not have a Michelin star, and extremely low accuracy in predicting if it did have one. We then used Resampling Models (Oversampling, Undersampling, Combination, Balanced Random Forest, and Easy Ensemble AdaBoost).
 
-### What Worked
-**Neural Network Model to Determine 1, 2, or 3 Michelin Stars**
+### The Models
 
-![NNM to Determine 1,2,3 Michelin Stars - loss accuracy](https://user-images.githubusercontent.com/15335096/161188060-9e4c8d75-b906-4811-9dda-f562181bf377.png)
+![2](https://user-images.githubusercontent.com/92230478/161401312-4b49bec3-8c14-4c11-8f76-15699386b87b.PNG)
 
-![NNM to Determine 1,2,3 Michelin Stars - graph](https://user-images.githubusercontent.com/15335096/161187983-cc0e7d4a-272e-40a1-991c-6f76b284b43a.png)
+* The confusion matrix shows that our model was the most accurate for properly classifying 1 star restaurants with 97.4% accuracy
+  * 2 star accuracy: 9.1%
+  * 3 star accuracy: 0%
+* However, this model has predicted that 49 out of the 54 restaurants given had only 1 star.
+* We can conclude from this that the 72% accuracy is not actually indicative of a successful machine learning model but instead the result of feeding the model a dataset with too few rows of data and an imbalanced ratio of 1, 2, and 3 starred restaurants (as shown in the figure on slide 8). 
+This model is a poor predictor of how many stars a Michelin starred restaurant has received. 
 
 
-The Undersampling model accurately predicts 45 restaurants have Michelin Stars.
+![Capture1](https://user-images.githubusercontent.com/92230478/161401283-753dfedd-acc3-4e4d-aa6e-4917fae1bdb9.PNG)
 
-### What Didn't Work
+* Input features included: 'review_count', 'rating', 'price', 'latitude', 'longitude'
+* Our model has an accuracy score of 0.84 which indicates some relevance of the Yelp data in determining how many stars a known Michelin starred restaurant has.
+* Although, it should be noted that in our dataset about 77% of the restaurants had 1 Michelin star. It is possible that this high ratio of 1 star restaurants is partially responsible for the 84% accuracy in our model.
+
+
+![3](https://user-images.githubusercontent.com/92230478/161401364-f177c232-bf18-4acb-898e-2e0ad2d2a504.PNG)
+
+* Using a Deep Learning Model, there was very little difference in changing the features. The only features that made a significant difference in importance was ‘price’ and ‘stars’. 
+* The Deep Learning Model Accuracy score continuously produced a 97% accuracy rate, and we realized that the model was predicting a 97% accuracy of restaurants that did not have a Michelin star, rather then predicting the ones that did. This ended up being similar to our example from one of our course modules of a model that more accurately predicts a legitimate credit card charge, than accurately predicting a fraudulent credit card charge. 
+* We had similar results when utilizing a Logistic Regression Model, as well as a Random Forest Model. 
+* We then switched to use a supervised machine learning model to see if we could get a model to predict the whether a restaurant was a Michelin Star Restaurant. 
+* In using the Naive Random oversampling, oversampling, a combination of over and under sampling, balanced random forest classifier, and easy ensemble Adaboost classifier models, they all had a similar result, where with our test and training data, the models predicted with 100% precision whether a restaurant had a star or not. 
+
+![4](https://user-images.githubusercontent.com/92230478/161401385-acfc559e-ba24-4a6c-9aaa-5f0c8145e801.PNG)
+
 
 ## Conclusion
 First Question: Can we accurately predict how many stars a Michelin starred restaurant has using data from Yelp?
