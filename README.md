@@ -42,7 +42,7 @@ The datasets were stored in CSV files and SQLite databases.
 ## Machine Learning Models
 
 ### Building the Models
-We tested several different types of models.
+We tested several different types of models. We split the data into training and testing sets as appropriate.
 
 To answer our first question, _Could we predict how many stars a Michelin Starred restaurant has?_ We started with a Linear Regression model and a SVC model with little success and moved onto a Deep Learning model. An accuracy score of 84% was obtained.
 
