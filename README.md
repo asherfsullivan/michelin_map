@@ -77,6 +77,12 @@ This model is a poor predictor of how many stars a Michelin starred restaurant h
 
 ![4](https://user-images.githubusercontent.com/92230478/161401385-acfc559e-ba24-4a6c-9aaa-5f0c8145e801.PNG)
 
+* In using the Naive Random oversampling, oversampling, a combination of over and under sampling, balanced random forest classifier, and easy ensemble Adaboost classifier models, they all had a similar result, where with our test and training data, the models predicted with 100% precision whether a restaurant had a star or not. 
+* While we want a model that achieves a high accuracy or precision score, this was almost too perfect. 
+* These models correctly classified a Michelin Star restaurant and non-Michelin star restaurants every time. It did not matter which features we used. 
+* This is most likely a result of Overfitting. The model learned the detail in the training data, ours may be too specific, and impacts the performance. In this case, accurately predicts it every time.
+* In trying to fix the overfitting, we had tried removing features and using more data, but came up with the same result. If given more time, we could try other techniques in order to try and fix the overfitting, but the dataset that we chose is just so specific, that it hypertuned our results. 
+
 
 ## Conclusion
 First Question: Can we accurately predict how many stars a Michelin starred restaurant has using data from Yelp?
