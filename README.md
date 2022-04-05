@@ -105,6 +105,6 @@ Future Models
 * Make year 2020-2022 predictions and compare to real results.
 
 ## Summary
-[Google Slides Project Overview]('Michelin Stars & Yelp Ratings.pdf')
+[Google Slides Project Overview](Project_Overview.pdf)
 
 [Tableau visualizations](https://public.tableau.com/views/MichelinRestaurantsbyStarandCuisine/Sheet1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
